@@ -1,0 +1,14 @@
+$ cd runoob-git-test/                       # 进入测试目录
+$ echo "# 菜鸟教程 Git 测试" >> README.md     # 创建 README.md 文件并写入内容
+$ ls                                        # 查看目录下的文件
+README
+$ git init                                  # 初始化
+$ git add README.md                         # 添加文件
+$ git commit -m "添加 README.md 文件"        # 提交并备注信息
+[master (root-commit) 0205aab] 添加 README.md 文件
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+# 提交到 Github
+$ git remote add origin git@github.com:hurrybill/GIT.git
+$ git push -u origin master

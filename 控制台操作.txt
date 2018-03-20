@@ -1,0 +1,3 @@
+dir 查看文件名 dir 
+cd 进入文件夹  cd/file
+d: 进入磁盘
