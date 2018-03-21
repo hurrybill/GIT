@@ -1,0 +1,5 @@
+pip install numpy;    #矩阵运算
+pip install matplotlib;  #数据可视化
+pip install tensorflow;  #快速搭建神经网络
+pip install tkinter;     #界面套件
+pip install pandas;      #创建字典表
